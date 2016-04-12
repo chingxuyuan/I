@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40470D8F7BB20576A91E4D36 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBABB1154128362200953A41 /* libPods.a */; };
 		80522FC31CBCC5CB00F84469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80522FC21CBCC5CB00F84469 /* AppDelegate.swift */; };
 		80522FC51CBCC5CB00F84469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80522FC41CBCC5CB00F84469 /* ViewController.swift */; };
 		80522FC81CBCC5CB00F84469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80522FC61CBCC5CB00F84469 /* Main.storyboard */; };
 		80522FCA1CBCC5CB00F84469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80522FC91CBCC5CB00F84469 /* Assets.xcassets */; };
 		80522FCD1CBCC5CB00F84469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80522FCB1CBCC5CB00F84469 /* LaunchScreen.storyboard */; };
+		80522FD71CBCCCA800F84469 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 80522FD61CBCCCA800F84469 /* Podfile */; };
+		80522FDA1CBCCE4B00F84469 /* bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 80522FD91CBCCE4B00F84469 /* bridge.m */; };
+		80522FDC1CBCCFF300F84469 /* temp in Resources */ = {isa = PBXBuildFile; fileRef = 80522FDB1CBCCFF300F84469 /* temp */; };
+		80522FDE1CBCE3F000F84469 /* PrivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80522FDD1CBCE3F000F84469 /* PrivateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3940E88596AA863B82078FF2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		80522FBF1CBCC5CB00F84469 /* IMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80522FC21CBCC5CB00F84469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80522FC41CBCC5CB00F84469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,13 @@
 		80522FC91CBCC5CB00F84469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80522FCC1CBCC5CB00F84469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80522FCE1CBCC5CB00F84469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80522FD61CBCCCA800F84469 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		80522FD81CBCCE4B00F84469 /* IMTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		80522FD91CBCCE4B00F84469 /* bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridge.m; sourceTree = "<group>"; };
+		80522FDB1CBCCFF300F84469 /* temp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = temp; sourceTree = "<group>"; };
+		80522FDD1CBCE3F000F84469 /* PrivateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateViewController.swift; sourceTree = "<group>"; };
+		A24F935AC45253183A130D0D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BBABB1154128362200953A41 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40470D8F7BB20576A91E4D36 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +52,12 @@
 		80522FB61CBCC5CB00F84469 = {
 			isa = PBXGroup;
 			children = (
+				80522FDB1CBCCFF300F84469 /* temp */,
+				80522FD61CBCCCA800F84469 /* Podfile */,
 				80522FC11CBCC5CB00F84469 /* IMTest */,
 				80522FC01CBCC5CB00F84469 /* Products */,
+				C8D3B5FA5C2AAA9B9367F722 /* Pods */,
+				A79DA5C5899A542DF95E0933 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +78,28 @@
 				80522FC91CBCC5CB00F84469 /* Assets.xcassets */,
 				80522FCB1CBCC5CB00F84469 /* LaunchScreen.storyboard */,
 				80522FCE1CBCC5CB00F84469 /* Info.plist */,
+				80522FD91CBCCE4B00F84469 /* bridge.m */,
+				80522FD81CBCCE4B00F84469 /* IMTest-Bridging-Header.h */,
+				80522FDD1CBCE3F000F84469 /* PrivateViewController.swift */,
 			);
 			path = IMTest;
+			sourceTree = "<group>";
+		};
+		A79DA5C5899A542DF95E0933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBABB1154128362200953A41 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8D3B5FA5C2AAA9B9367F722 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A24F935AC45253183A130D0D /* Pods.debug.xcconfig */,
+				3940E88596AA863B82078FF2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80522FD11CBCC5CB00F84469 /* Build configuration list for PBXNativeTarget "IMTest" */;
 			buildPhases = (
+				BD973FC136819B7ADAE90B0A /* Check Pods Manifest.lock */,
 				80522FBB1CBCC5CB00F84469 /* Sources */,
 				80522FBC1CBCC5CB00F84469 /* Frameworks */,
 				80522FBD1CBCC5CB00F84469 /* Resources */,
+				3783F5C8916CBE9C7B1DD908 /* Embed Pods Frameworks */,
+				983A105EBD4ADD673118B3DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,17 +166,69 @@
 			files = (
 				80522FCD1CBCC5CB00F84469 /* LaunchScreen.storyboard in Resources */,
 				80522FCA1CBCC5CB00F84469 /* Assets.xcassets in Resources */,
+				80522FD71CBCCCA800F84469 /* Podfile in Resources */,
 				80522FC81CBCC5CB00F84469 /* Main.storyboard in Resources */,
+				80522FDC1CBCCFF300F84469 /* temp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3783F5C8916CBE9C7B1DD908 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983A105EBD4ADD673118B3DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD973FC136819B7ADAE90B0A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80522FBB1CBCC5CB00F84469 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80522FDE1CBCE3F000F84469 /* PrivateViewController.swift in Sources */,
+				80522FDA1CBCCE4B00F84469 /* bridge.m in Sources */,
 				80522FC51CBCC5CB00F84469 /* ViewController.swift in Sources */,
 				80522FC31CBCC5CB00F84469 /* AppDelegate.swift in Sources */,
 			);
@@ -248,23 +341,30 @@
 		};
 		80522FD21CBCC5CB00F84469 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24F935AC45253183A130D0D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IMTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cxy.IMTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IMTest/IMTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		80522FD31CBCC5CB00F84469 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3940E88596AA863B82078FF2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IMTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cxy.IMTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IMTest/IMTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,6 +387,7 @@
 				80522FD31CBCC5CB00F84469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,11 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: RCConversationViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        //设置需要显示哪些类型的会话
+        self.setMessageAvatarStyle(RCUserAvatarStyle.USER_AVATAR_CYCLE)
+        
+        self.targetId = "ccc"
+        self.userName = "cheng"
+        
+        self.conversationType = .ConversationType_PRIVATE
+        
     }
 
     override func didReceiveMemoryWarning() {

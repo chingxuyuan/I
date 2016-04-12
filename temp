@@ -1,0 +1,27 @@
+{"code":200,"userId":"uid1","token":"b5M1Psp9dwhOAWpgpLLcWjqMAjMPA6eoeGb2C3ZxXVJOa4/+DjF6v6psXPpkEwXSv39G/X2qujLufdQPvbsKdQ=="}
+
+
+
+
+POST /user/getToken.json HTTP/1.1
+Host: api.cn.rong.io
+App-Key: uwd1c0sxd9pf1
+Nonce: 1717116347
+Timestamp: 1460443200
+Signature: 8a2a5a9a58aa546c566570ec9eb30268c9a68081
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 36
+
+userId=uid1&name=%E8%80%81%E7%A8%8B1
+
+
+
+HTTP/1.1 200
+Content-Type: application/json;charset=utf-8
+Content-Length: 127
+
+{"code":200,"userId":"uid1","token":"b5M1Psp9dwhOAWpgpLLcWjqMAjMPA6eoeGb2C3ZxXVJOa4/+DjF6v6psXPpkEwXSv39G/X2qujLufdQPvbsKdQ=="}
+
+
+
+{"code":200,"userId":"ccc","token":"qOAErW4WBOvqfvuSzs9dBTqMAjMPA6eoeGb2C3ZxXVJOa4/+DjF6vx7yxbRVhmJT+sa1wMCDU9c="}
